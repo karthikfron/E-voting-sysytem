@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Election Comission of India</title>
+  <meta name="title" content="ECI">
+  <meta name="description" content="ECI">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./readme-images/eci.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./readme-images/eci.png" width="74" height="24" alt="ECI" class="logo-light">
+
+        <img src="./readme-images/eci.png" width="74" height="24" alt="ECI" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./readme-images/eci.png" width="74" height="24" alt="ECI">
+            
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#stats" class="navbar-link">Stats</a>
+          </li>
+
+          <li>
+            <a href="#party" class="navbar-link">Participants</a>
+          </li>
+
+          <li>
+            <a href="./create.php" class="navbar-link">Sign up</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="signin.php" class="btn btn-primary">Vote Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+
+
+    <marquee onmouseover="this.stop();" onmouseout="this.start();">
+      2024 Election Commission Of India---Welcome to our Voting Wonderland!  Get ready to have your voice heard and make a difference. Sign up now to join the democratic journey and be part of the change! 🙌🔓 Your vote matters – let's make it count! 🇺🇸
+     
+    </marquee>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">VOTING IS FUTURE NOW.</h1>
+
+            <p class="hero-text">
+              My vote is my voice... and the voice <br/>
+              of all who struggled, so that I may have my voice.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="signin.php" class="btn btn-primary">Vote Now</a>
+
+              <!-- <a href="#" class="btn btn-outline">Contact Us</a> -->
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./readme-images/vote.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+               
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+     
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./readme-images/poll.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why Vote online?</p>
+
+            <h2 class="h2 section-title">
+              &nbsp;&nbsp; Increased Efficiency
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  
+
+                  <p class="accordion-content">
+                    One of the most significant advantages of online voting systems is incredible efficiency. With traditional paper-based voting, there are a lot of steps involved, from printing ballots to counting votes by hand. You can avoid all of that with online voting.
+                  </p>
+
+                </div>
+              </li>
+
+              
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./readme-images/engagement.webp" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">why vote online?</p>
+
+            <h2 class="h2 section-title">
+              Greater Turnout And Voter Engagement
+            </h2>
+
+            <p class="section-text">
+              Another advantage of online voting is that it can increase voter turnout because it's more convenient for voters to cast their ballots online than to have to go to a physical polling place.
+            </p>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats" aria-label="our stats">
+        <div class="container">
+          <p class="section-subtitle" style="text-align: center;" id="project-label">Statistics</p>
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">36661315</span>
+
+                <spna class="span">Total Voters</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">175</span>
+
+                <spna class="span">Total assembly seats</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">25</span>
+
+                <spna class="span">Lok Sabha constituents</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">54</span>
+
+                <spna class="span">Political Parties</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="party" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Participants</p>
+
+          <!-- <h2 class="h2 section-title">
+            Check out some of our awesome projects with creative ideas and great design.
+          </h2> -->
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 550;">
+                  <img src="./assets/images/tdp.png" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://www.telugudesam.org/" class="card-title">TELUGU DESAM PARTY</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Visit <a class="card-title" href="https://www.telugudesam.org/">www.telugudesam.org</a> for more info.
+                  </p>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 550;">
+                  <img src="./assets/images/ysrcp.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://www.ysrcongress.com/" class="card-title">YSRCP PARTY</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Visit <a class="card-title" href="https://www.ysrcongress.com/en">www.ysrcongress.com</a> for more info.
+                  </p>
+
+                  
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 550;">
+                  <img src="./assets/images/js.png" width="560" height="350" loading="lazy"
+                    alt="JS" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://www.janasenaparty.org/" class="card-title">JANASENA PARTY</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Visit <a class="card-title" href="https://www.janasenaparty.org/">www.janasenaparty.org</a> for more info.
+                  </p>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Voting is our basic right!<br/> Your vote decides the future of country.
+          </h2>
+
+          <a href="signin.php" class="btn btn-primary">Vote Now</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+          <img src="./readme-images/eci.png" width="74" height="24" alt="ECI">
+        </a>
+
+        <p class="footer-text">
+          &copy; <script>const d = new Date();
+            let year = d.getFullYear();
+            document.write(year);</script> ECI. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Contact us</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            PGRS Section, Election Commission Of India, Nirvachan Sadan, Ashoka Road, New Delhi 110001
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:complaints@eci.gov.in" class="footer-link">complaints@eci.gov.in</a>
+        </li>
+
+        <li>
+          <a href="tel:1950" class="footer-link">1950 (Toll Free)</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About</a>
+        </li>
+
+        <li>
+          <a href="#stats" class="footer-link">Stats</a>
+        </li>
+
+        <li>
+          <a href="#party" class="footer-link">Participants</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <img src="./assets/images/emb.png" width="300" height="345" alt="ECI">
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
